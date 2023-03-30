@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .tong{
+            height: 900px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .right{
+            width: 5%;
+            border: 1px solid rgba(208, 201, 201, 0.692);
+        
+        }
+        #col1{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            height: 60%;
+        }
+        #col2{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-end;
+            height: 40%;
+
+        }
+        .center{
+            width: 60%;
+            margin-left: 23px;
+        }
+        #gol1{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 10%;
+            width: 97%;
+        }
+        #time{
+           font-size: 20px;
+           border:1px solid rgba(255, 20, 20, 0.927);
+           border-radius: 20px;
+           width: 100px;
+           height: 30px;
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+        }
+        #gol2{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 40%;
+        }
+        #gol3{
+            display: flex;
+            justify-content: space-between;
+            height: 60%;
+            width: 90%;
+
+        }
+        #img_big{
+            position: absolute;
+            margin-top: 30px;
+        }
+        #gol3_r{
+            position: relative;
+            font-size: 20px;
+            margin-top: 40px;
+            margin-left: 40px;
+            border-radius: 5px;
+            background-color: dimgray;
+            width: 200px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+        #gol3_l{
+            position: relative;
+            margin-top: 40px;
+        }
+        #gol4{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 95%;
+    
+        }
+        .left{
+            width: 35%;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="tong">
+        <div class="right">
+            <div id="col1">
+                <div><img src="../anh/logo.png" alt=""></div>
+                <div><img src="../anh/home.png" alt=""></div>
+                <div><img src="../anh/chatting.png" alt=""></div>
+                <div><img src="../anh/calender.png" alt=""></div>
+                <div><img src="../anh/cam.png" alt=""></div>
+                <div><img src="../anh/user.png" alt=""></div>
+            </div>
+            <div id="col2">
+                <div><img src="../anh/avatar 1322.png" alt=""></div>
+                <br>
+                <div><img src="../anh/setting.png" alt=""></div>
+            </div>
+        </div>
+        <div class="center">
+            <div id="gol1">
+                <h1>Meeting title</h1>
+                <div id="time"><samp > 12:00</samp></div>
+            </div>
+            <div id="gol2" >
+                <div style="display: flex; justify-content: space-around;  align-items: center; background-color: brown; border-radius: 20px; width: 90px; height: 30px;" ><img style="width: 15px;" src="../anh/user.png" alt=""> Imterral</div>
+                <div style="display: flex; justify-content: space-around;  align-items: center;" ><img style="width: 15px;" src="../anh/calender.png" alt="">  Sep 02, 2002   |</div>
+                <div><samp style="font-size: 15px;">08:00 - 09:00</samp></div>
+            </div>
+            <div id="gol3">
+                <img id="img_big" src="../anh/img_big.png" alt="">
+                <div id="gol3_r"><samp>Benjanmin Crawford</samp></div>
+                <div id="gol3_l"><img src="../anh/mic_color.png" alt=""></div>
+            </div>
+            <div id="gol4">
+                <div style="display: flex;justify-content: space-between; width:30% ;">
+                    <img style="position: absolute;" src="../anh/img.png" alt="">
+                    <div style="position: relative; border-radius: 10px; background-color: darkgrey; width: 110px ;height: 25px; display: flex; justify-content: center; align-items: center; top: 10px; left: 10px;"><samp>CHEREIR SSADOT</samp></div>
+                    <div style="position: relative ; top: 10px;"><img  style="width: 25px;" src="../anh/mic_color.png" alt=""></div>
+                </div>
+                <div style="display: flex;justify-content: space-between; width:30% ;">
+                    <img style="position: absolute;" src="../anh/img1.png" alt="">
+                    <div style="position: relative; border-radius: 10px; background-color: darkgrey; width: 110px ;height: 25px; display: flex; justify-content: center; align-items: center; top: 10px; left: 10px;"><samp>CHEREIR SSADOT</samp></div>
+                    <div style="position: relative ; top: 10px;"><img  style="width: 25px;" src="../anh/mic_color.png" alt=""></div>
+                </div>
+                <div style="display: flex;justify-content: space-between; width:30% ;">
+                    <img style="position: absolute;" src="../anh/img2.png" alt="">
+                    <div style="position: relative; border-radius: 10px; background-color: darkgrey; width: 110px ;height: 25px; display: flex; justify-content: center; align-items: center; top: 10px; left: 10px;"><samp>CHEREIR SSADOT</samp></div>
+                    <div style="position: relative ; top: 10px;"><img  style="width: 25px;" src="../anh/mic_color.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+        <div class="left">3</div>
+    </div>
+</body>
+</html>
